@@ -1,0 +1,72 @@
+body {
+    font-family: sans-serif;
+background-color: blueviolet;
+color: blueviolet;
+}
+
+form{
+    padding-top: 40px;
+    width: 400px;
+    margin:auto
+
+
+}
+
+.corpo{
+    box-shadow: 1px 5px 5px whitesmoke;
+    background-color: white;
+    padding: 30px;  
+    border-radius: 10px;    
+
+}
+
+.corpo-topo {
+    text-align: center;
+
+}
+
+.corpo-grupo{
+    margin-bottom: 10px;
+}
+
+.corpo-grupo > label{
+    display: block;
+    width: 100%;
+    color: gray;
+
+}
+
+.corpo-grupo > input{
+border-radius: 7px;
+outline: 0;
+ width: 100%;   
+ height: 20px;  
+padding: 5px; 
+
+}
+
+.corpo-grupo > button{
+background-image: linear-gradient(to right, purple, blue);
+width: 100%;    
+border-radius: 30px;    
+padding: 15px;
+color:white;
+border:0px;
+outline:0;
+
+}
+
+.btn button:hover{
+    background-image: linear-gradient(to right,blue, purple);
+width: 100%;    
+}
+
+.imgbolo{
+    border-radius: 50px;
+    width: 100px;    
+    box-shadow: 1px 1px 2px chocolate;
+
+}
+
+}
+

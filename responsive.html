@@ -1,0 +1,154 @@
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Oe gente</title>
+	<link href="exemplo.css" rel="stylesheet">
+
+	<style>
+		body {
+			background: gray;
+		}
+
+		h1 {
+			text-align: center;
+		}
+
+		@media (max-width: 1024px) {
+			body {
+				background-color: red;
+			}
+
+			h1 {
+				text-align: right;
+			}
+
+			table td:first-child{
+				display:none;
+			}
+
+			label {
+				display:none;
+			}
+		}
+
+		@media (max-width: 600px) {
+			body {
+				background-color: #FFF;
+			}
+
+			h1 {
+				background-color: lightblue;
+				margin: 0;
+				padding: 0;
+				width: 100%;
+				height: 100px;
+				position: absolute;
+			}
+
+			img {}
+
+			p {}
+		}
+
+		
+
+		
+	</style>
+</head>
+
+<body>
+
+	<h1 style="color:blue;">Exemplo de Elementos</h1>
+
+	<form>
+		<table border="1" cellpadding="10" width="500">
+			<tr>
+				<td> <label>email que mais usa ai</label></td>
+				<td><input type="text" placeholder="email que mais usa ai" required></td>
+			</tr>
+			<tr>
+				<td><label>Nome do menino ai</label></td>
+				<td><input type="text" placeholder="Nome do menino ai"></td>
+			</tr>
+			<tr>
+				<td>
+					O que você prefere ?
+				</td>
+				<td>
+					<input type="radio" id="serie" name="lazer" value="serie"></label>
+					<label for="serie">Série</label>
+					<input type="radio" id="desenho" name="lazer" value="desenho">
+					<label for="desenho">Desenho</label>
+				</td>
+			</tr>
+			<tr>
+				<td colspan='2' align="center">
+					<label for="hoje">Que dia você nasceu?</label>
+					<input type="date" id="hoje" name="hoje" value="" min="1990-01-01" max="2020-12-31">
+				</td>
+			</tr>
+			</tr>
+			<tr>
+				<td>Oie professor </td>
+				<td>
+					<select placeholder="Selecione">
+						<option value='0' disabled>Selecione </option>
+						<option value='1'>Bolo de </option>
+						<option value='2'>Cenoura</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Voce ama a equipe 3</td>
+				<td>
+					<select placeholder="Selecione">
+						<option value='0' disabled>Selecione </option>
+						<option value='1'>Sim</option>
+						<option value='2'>Claro</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>O menino ali ta jogando minecraft é </td>
+				<td>
+					<select placeholder="Selecione">
+						<option value='0' disabled>Selecione </option>
+						<option value='1'>Acho que sim</option>
+						<option value='2'>Acho que sim</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>Ser um supervilão ou ser um superherói ?</label>
+				</td>
+				<td>
+					<select>
+						<option>Vilão </option>
+						<option>Herói </option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>Qual a sua melhor lembrança?</label>
+				</td>
+				<td>
+					<textarea id='texto' name='texto'></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="avatar">Envie uma foto:</label></td>
+				<td>
+					<input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg">
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+
+</html>
